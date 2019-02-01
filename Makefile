@@ -1,2 +1,2 @@
-dev:
+start:
 	@docker-compose up --build
