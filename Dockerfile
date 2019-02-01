@@ -9,7 +9,7 @@ RUN mkdir -p /srv/taiko-web && virtualenv -p /usr/bin/python2 .venv2 && \
   virtualenv -p /usr/bin/python3 .venv3 && \
   pip3 install websockets
 
-RUN git clone https://git.taiko.zone/bui/taiko-web.git /srv/taiko-web && \
+RUN git clone https://git.taiko.zone/darkcl/taiko-web.git /srv/taiko-web && \
   cd /srv/taiko-web
 
 RUN cd /srv/taiko-web && mkdir -p public/songs
